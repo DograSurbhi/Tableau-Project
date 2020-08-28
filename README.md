@@ -4,5 +4,12 @@ This is a data analysis project for New York's Air Quality.The data has been imp
 In this project following things have been done:
 Created Histogram , modified bin size,created Scatter Chart,added Trend Line in Scatter chart,added statistical equation ,created Dashboard,added filter in Dashboard,adjusted filters in Dashboard,modified Sheet's name in Dashboard, created dynamic sheet's name in Dashboard and found Coorelation between dependent and independent variables.
 
-Findings: Through the scattered plot it's evident that Ozone variable is correlated with Temperature variable(target value).The histograms have shown the shape of data.
+Findings: 
+1.Through the scatter plot it's clear that Ozone variable is correlated with Temperature variable(target value) and it is a significant variable as the trend line is linear.In other words, the temperature will increase or decrease on the basis of ozone's value.The R-value of 0.48796 indicates that it is relative;ly important varibale. P-value statistically indicates that this variable is acceptable and we can actually predict with this data range that wil be the next temperature.
+
+2.Through the the trend line in the scatter plot for Solar variable, it can be seen that solar does not really contribute to the temperature as the R-value is not strong.
+
+3.Through the trend line for the wind varible, it can be seen it is a negative correlation but the R-value suggests that it is not a variable that contributes a lot to our target value.
+
+The histograms have shown the shape of data.
 
